@@ -7,6 +7,7 @@ const App = () => {
   return (
     <div>
      <h3>Enter Your Name</h3>
+     
      <input type="text" onChange={(e)=>{
       setinput(e.target.value);
      }}></input>
